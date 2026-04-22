@@ -8,7 +8,7 @@ This code was produced as part of the INFO-F514 course project at ULB.
 
 ---
 
-## What this is
+## About
 
 The paper introduces **Single-Color Initial Structure (SCIS)**, a technique that solves the neutral word generation bottleneck in MITM attacks on AES, enabling the first classical one-block collision attack on 7-round AES-MMO/MP at complexity $2^{60}$.
 
