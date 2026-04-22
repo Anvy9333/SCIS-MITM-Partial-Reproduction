@@ -72,5 +72,5 @@ The parameters are reduced but the pipeline logic is kept identical to the paper
 ---
 
 
-INFO-F514 — Protocols, Cryptanalysis and Mathematical Cryptology  
+INFO-F514 - Protocols, Cryptanalysis and Mathematical Cryptology  
 Université Libre de Bruxelles, 2024–2025
