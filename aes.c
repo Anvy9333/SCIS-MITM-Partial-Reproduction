@@ -80,16 +80,6 @@ static void shift_rows(uint8_t s[16]) {
     // Row 3: left shift by 3 
     t=s[15]; s[15]=s[11]; s[11]=s[7]; s[7]=s[3]; s[3]=t;
 }
-static void shift_rows(uint8_t s[16]) {
-    uint8_t t;
-    // Row 1: left shift by 1 
-    t=s[1]; s[1]=s[5]; s[5]=s[9]; s[9]=s[13]; s[13]=t;
-    // Row 2: left shift by 2 
-    t=s[2]; s[2]=s[10]; s[10]=t;
-    t=s[6]; s[6]=s[14]; s[14]=t;
-    // Row 3: left shift by 3 
-    t=s[15]; s[15]=s[11]; s[11]=s[7]; s[7]=s[3]; s[3]=t;
-}
 
 // MixColumns 
 static void mix_columns(uint8_t s[16]) {
